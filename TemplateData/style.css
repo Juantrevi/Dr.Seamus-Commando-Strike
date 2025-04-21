@@ -18,8 +18,10 @@ html, body {
 
 #unity-canvas {
   width: 100%;
-  max-width: 960px;  /* Optional: keep the game from getting too large */
-  aspect-ratio: 16 / 10;  /* Maintain the 960x600 aspect */
+  height: auto;
+  aspect-ratio: 16 / 10;
+  max-width: 960px;
+  max-height: 600px;
   background: #231F20;
 }
 
